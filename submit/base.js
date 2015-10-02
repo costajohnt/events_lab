@@ -1,7 +1,7 @@
-console.log("Sanity Check: JS is working!");
 
 $(document).ready(function(){
-
-  $("#time").text( Date.now() );
-
-})
+	$("h1").text("Go!");
+});
+$( "input").click(function(event) {
+  event.preventDefault();
+});
